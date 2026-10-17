@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Collections | NOSTRA</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+ 
+    <div class="offer-bar">
+
+        ✦ Find a Look That Feels Like You
+</div>
+ 
+    <header>
+<a href="index.html" class="logo">NOSTRA<span>.</span></a>
+ 
+        <nav>
+<a href="index.html">Home</a>
+<a class="active" href="collections.html">Collections</a>
+<a href="contact.html">Contact</a>
+</nav>
+ 
+        <button id="openCart" class="cart-button">
+
+            ♡ Bag (<span id="cart-count">0</span>)
+</button>
+</header>
+ 
+    <main>
+<section class="collection-banner">
+<p class="small-heading">THE NOSTRA COLLECTION</p>
+<h1>Discover Your Style</h1>
+<p>Everyday pieces. Fresh outfits. Your choice.</p>
+</section>
+ 
+        <section class="section">
+<div class="section-title">
+<p class="small-heading">EXPLORE OUR EDIT</p>
+<h2>All Outfits</h2>
+</div>
+ 
+            <div class="filter-container">
+<div class="filter-item">
+<label for="search-input">Search Outfits</label>
+<input
+
+                        type="text"
+
+                        id="search-input"
+
+                        placeholder="Type a product name"
+>
+</div>
+ 
+                <div class="filter-item">
+<label for="category-filter">Category</label>
+<select id="category-filter">
+<option value="All">All Categories</option>
+<option value="Women">Women</option>
+<option value="Men">Men</option>
+</select>
+</div>
+ 
+                <div class="filter-item">
+<label for="sort-filter">Price Range</label>
+<select id="sort-filter">
+<option value="default">Recommended</option>
+<option value="low">Low to High</option>
+<option value="high">High to Low</option>
+</select>
+</div>
+ 
+                <button id="clear-filters"
+
+                        class="clear-button"
+
+                        type="button">
+
+                    Reset Filters
+</button>
+</div>
+ 
+            <p id="results-count" class="results-count"></p>
+ 
+            <div id="all-products" class="product-container"></div>
+ 
+            <p id="no-results" class="no-results hidden">
+
+                No outfits found. Try another search.
+</p>
+</section>
+ 
+        <section class="quote-section">
+<h2>Your Wardrobe, Your Rules.</h2>
+<p>Choose pieces that make every day feel special.</p>
+</section>
+</main>
+ 
+    <footer>
+<h2>NOSTRA<span>.</span></h2>
+<p>Everyday fashion, your own way.</p>
+ 
+        <div class="footer-links">
+<a href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a href="contact.html">Contact</a>
+</div>
+ 
+        <p class="copyright">© 2026 NOSTRA. All rights reserved.</p>
+</footer>
+ 
+    <!-- Shopping Cart -->
+ 
+    <div id="cartOverlay" class="cart-overlay hidden">
+<div class="cart-box">
+<div class="cart-heading">
+<h2>Your Shopping Bag</h2>
+<button id="closeCart" class="close-button">×</button>
+</div>
+ 
+            <div id="cart-items"></div>
+ 
+            <p id="empty-cart">Your bag is empty. Find your favourite style!</p>
+ 
+            <div class="cart-total">
+
+                Total: <span id="cart-total">₹0</span>
+</div>
+ 
+            <button id="checkout-button"
+
+                    class="main-button checkout-button">
+
+                Place Demo Order
+</button>
+</div>
+</div>
+ 
+</body>
+</html>
+ 

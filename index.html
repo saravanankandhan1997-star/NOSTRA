@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>NOSTRA | Everyday Fashion</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+ 
+    <div class="offer-bar">
+        ✦ Your Style, Your Story — Discover NOSTRA
+</div>
+ 
+    <header>
+<a href="index.html" class="logo">NOSTRA<span>.</span></a>
+ 
+        <nav>
+<a class="active" href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a href="contact.html">Contact</a>
+</nav>
+ 
+        <button id="openCart" class="cart-button">
+            ♡ Bag (<span id="cart-count">0</span>)
+</button>
+</header>
+ 
+    <main>
+<section class="hero">
+<div class="hero-text">
+<p class="small-heading">THE EVERYDAY EDIT</p>
+<h1>Simple Looks.<br>Strong Style.</h1>
+ 
+                <p>
+                    Discover easy-to-wear outfits for everyday plans,
+                    special moments and everything in between.
+</p>
+ 
+                <a href="collections.html" class="main-button">
+                    Explore Styles →
+</a>
+ 
+                <p class="hero-quote">
+                    “Wear what feels right. Let your style speak.”
+</p>
+</div>
+ 
+            <div class="hero-image">
+<img
+                    src="https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?auto=format&fit=crop&w=900&q=80"
+                    alt="Fashion outfit"
+>
+</div>
+</section>
+ 
+        <section class="section">
+<div class="section-title">
+<p class="small-heading">FIND YOUR FAVOURITE</p>
+<h2>Shop by Category</h2>
+</div>
+ 
+            <div class="category-container">
+<a href="collections.html?category=Women"
+                   class="category-box women-box">
+<span>01</span>
+<h3>Women's Edit</h3>
+<p>Everyday looks made easy ↗</p>
+</a>
+ 
+                <a href="collections.html?category=Men"
+                   class="category-box men-box">
+<span>02</span>
+<h3>Men's Edit</h3>
+<p>Classic style, every day ↗</p>
+</a>
+</div>
+</section>
+ 
+        <section class="section">
+<div class="section-title">
+<p class="small-heading">PICKS WE LOVE</p>
+<h2>Featured Outfits</h2>
+</div>
+ 
+            <div id="home-products" class="product-container"></div>
+ 
+            <div class="center-button">
+<a href="collections.html" class="main-button">
+                    View All Styles →
+</a>
+</div>
+</section>
+ 
+        <section class="quote-section">
+<p class="small-heading">A LITTLE STYLE NOTE</p>
+<h2>Less Fuss. More Confidence.</h2>
+<p>“The best outfit is the one that feels like you.”</p>
+<a href="collections.html" class="main-button">
+                Find Your Outfit
+</a>
+</section>
+ 
+        <section class="newsletter section">
+<h2>Stay in Style</h2>
+<p>Sign up for new looks and the latest NOSTRA updates.</p>
+ 
+            <form id="newsletter-form">
+<input
+                    type="email"
+                    id="newsletter-email"
+                    placeholder="Enter your email address"
+                    required
+>
+<button type="submit" class="main-button">
+                    Join Us →
+</button>
+</form>
+ 
+            <p id="newsletter-message" class="form-message"></p>
+</section>
+</main>
+ 
+    <footer>
+<h2>NOSTRA<span>.</span></h2>
+<p>Everyday fashion, your own way.</p>
+ 
+        <div class="footer-links">
+<a href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a href="contact.html">Contact</a>
+</div>
+ 
+        <p class="copyright">© 2026 NOSTRA. All rights reserved.</p>
+</footer>
+ 
+    <!-- Shopping Cart -->
+ 
+    <div id="cartOverlay" class="cart-overlay hidden">
+<div class="cart-box">
+<div class="cart-heading">
+<h2>Your Shopping Bag</h2>
+<button id="closeCart" class="close-button">×</button>
+</div>
+ 
+            <div id="cart-items"></div>
+ 
+            <p id="empty-cart">Your bag is empty. Find your favourite style!</p>
+ 
+            <div class="cart-total">
+                Total: <span id="cart-total">₹0</span>
+</div>
+ 
+            <button id="checkout-button"
+                    class="main-button checkout-button">
+                Place Demo Order
+</button>
+</div>
+</div>
+ 
+</body>
+</html>

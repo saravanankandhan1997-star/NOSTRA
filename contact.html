@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact | NOSTRA</title>
+<link rel="stylesheet" href="style.css">
+<script src="script.js" defer></script>
+</head>
+<body>
+ 
+    <div class="offer-bar">
+
+        ✦ Questions? We're Here to Help
+</div>
+ 
+    <header>
+<a href="index.html" class="logo">NOSTRA<span>.</span></a>
+ 
+        <nav>
+<a href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a class="active" href="contact.html">Contact</a>
+</nav>
+ 
+        <button id="openCart" class="cart-button">
+
+            ♡ Bag (<span id="cart-count">0</span>)
+</button>
+</header>
+ 
+    <main>
+<section class="collection-banner">
+<p class="small-heading">LET'S CONNECT</p>
+<h1>Get in Touch</h1>
+<p>We would love to hear from you.</p>
+</section>
+ 
+        <section class="section contact-section">
+<div class="contact-info">
+<h2>How Can We Help?</h2>
+ 
+                <p>
+
+                    Need help choosing an outfit? Have a question about
+
+                    our collection? Send us a note.
+</p>
+ 
+                <h3>Email</h3>
+<p>hello@nostra.example</p>
+ 
+                <h3>Our Style Promise</h3>
+<p>
+
+                    Fashion should be comfortable, fun and uniquely yours.
+</p>
+</div>
+ 
+            <form id="contact-form" class="contact-form">
+<label for="contact-name">Your Name</label>
+<input
+
+                    id="contact-name"
+
+                    type="text"
+
+                    placeholder="Enter your name"
+
+                    required
+>
+ 
+                <label for="contact-email">Email Address</label>
+<input
+
+                    id="contact-email"
+
+                    type="email"
+
+                    placeholder="Enter your email"
+
+                    required
+>
+ 
+                <label for="contact-subject">Subject</label>
+<input
+
+                    id="contact-subject"
+
+                    type="text"
+
+                    placeholder="What would you like to know?"
+
+                    required
+>
+ 
+                <label for="contact-message-input">Your Message</label>
+<textarea
+
+                    id="contact-message-input"
+
+                    rows="5"
+
+                    placeholder="Write your message here"
+
+                    required
+></textarea>
+ 
+                <button type="submit" class="main-button">
+
+                    Send Message →
+</button>
+ 
+                <p id="contact-message" class="form-message"></p>
+ 
+                <small>
+
+                    This is a demo form. It does not send a real email.
+</small>
+</form>
+</section>
+</main>
+ 
+    <footer>
+<h2>NOSTRA<span>.</span></h2>
+<p>Everyday fashion, your own way.</p>
+ 
+        <div class="footer-links">
+<a href="index.html">Home</a>
+<a href="collections.html">Collections</a>
+<a href="contact.html">Contact</a>
+</div>
+ 
+        <p class="copyright">© 2026 NOSTRA. All rights reserved.</p>
+</footer>
+ 
+    <!-- Shopping Cart -->
+ 
+    <div id="cartOverlay" class="cart-overlay hidden">
+<div class="cart-box">
+<div class="cart-heading">
+<h2>Your Shopping Bag</h2>
+<button id="closeCart" class="close-button">×</button>
+</div>
+ 
+            <div id="cart-items"></div>
+ 
+            <p id="empty-cart">Your bag is empty. Find your favourite style!</p>
+ 
+            <div class="cart-total">
+
+                Total: <span id="cart-total">₹0</span>
+</div>
+ 
+            <button id="checkout-button"
+
+                    class="main-button checkout-button">
+
+                Place Demo Order
+</button>
+</div>
+</div>
+ 
+</body>
+</html>
+ 
